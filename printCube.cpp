@@ -17,10 +17,15 @@ int main() {
 
     std::vector<Vec> cubeVectors;
     generate_cube(cubeVectors, d_min_max);
+    // generateEightPetalRose(cubeVectors, d_min_max);
+    // generateBoysSurface(cubeVectors, d_min_max);
+    // generateHyperbolicParaboloid(cubeVectors,  d_min_max);
+    
 
     refresh();
 
-    char gradient[] = " .:!/r(l1Z4H9W8@";
+    // char gradient[] = " .:!/r(l1Z4H9W8@";
+    char gradient[] = "      ..>rl1Z9W@";
     double cube_max = 2.2;
 
     while (1) {
